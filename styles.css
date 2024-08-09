@@ -1,0 +1,137 @@
+/* Apply font family from Google Fonts */
+body {
+    font-family: "Baskervville SC", serif;
+    background-color: #A3BC83;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav {
+    background-color: #444;
+    color: white;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.logohover {
+    cursor: default;
+}
+
+/* Add to your styles.css file */
+
+/* Layout for the cool things section */
+#cool-things {
+    padding: 20px;
+    text-align: center;
+}
+
+#cool-things h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#cool-things p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+/* Grid layout for the items */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.grid-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.grid-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.grid-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.grid-item p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+.grid-item a {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #007BFF;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.grid-item a:hover {
+    border-color: #007BFF;
+}
